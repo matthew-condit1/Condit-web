@@ -59,14 +59,132 @@
 
 }
 
-.scroll-maker {
-    height:3000px;
+.homelogo {
+    width: 100%;
+    height: auto;
 }
+
+
 
 .scrolling-words {
     color: white;
     font-size: 25px;
     text-align: center;
+    font-family: "Franklin Gothic Medium", sans-serif;
+    height:600px;
+    border-bottom: 2px solid white;
+    margin-bottom: 50px;
+}
+.scrolling-words h1 {
+    vertical-align: middle;
+}
+
+.scroll-maker {
+    height:3000px;
+}
+
+.card {
+    height: 200px;
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+
+}
+
+.team {
+    background: linear-gradient(rgba(255, 155, 0, 1), rgba(255, 200, 100, 1));
+
+}
+
+.team:hover {
+    background: linear-gradient(rgba(205, 105, 0, 1), rgba(205, 155, 50, 0.8));
+    cursor: hand;
+}
+
+.learn {
+    text-align: right;
+    background: linear-gradient( rgba(0, 60, 255, 1), rgba(60, 155, 255, 1));
+}
+
+.learn:hover {
+    background: linear-gradient( rgba(0, 30, 205, 1), rgba(30, 105, 205, 1));
+}
+
+.code-pic {
+    background-image: url("http://www.lincolnshirewebdesign.net/wp-content/uploads/2012/05/Code-2.jpg");
+    background-size: cover;
+}
+
+.contact {
+
+    text-align: center;
+    background: linear-gradient(-90deg, rgba(15, 255, 30, 1), rgba(30, 255, 190, 1) );
+
+}
+
+.contact:hover {
+    background: linear-gradient(-90deg, rgba(10, 205, 15, 1), rgba(15, 205, 135, 1));
+    color: rgba(225, 225, 225, 1);
+}
+
+.hand-pic {
+    background-image: url("http://cdn-media.cleargoalmedia.com/images/Web-Design/web-design-heroshot.jpg");
+    background-size: cover;
 }
 
 
+.blog {
+    background-color: black;
+}
+.consolelog {
+    color: rgba(0, 255, 35, 1);
+    font-family: "Courier New", serif;
+}
+
+.dofor {
+    background: linear-gradient(rgba(80, 10, 10, 1), rgba(200, 70, 70, 1));
+    color: white;
+    text-align: center;
+}
+
+.dofor:hover {
+    background: linear-gradient(rgba(50, 5, 5, 1), rgba(150, 35, 35, 1));
+}
+
+.location {
+    background: linear-gradient(270deg, navy, deepskyblue);
+}
+
+.location:hover {
+    background: linear-gradient(270deg, rgba(5, 5, 55, 1), royalblue);
+}
+
+.portfolio {
+    background: linear-gradient(rgba(188, 188,188,1), rgba(88, 88, 88,1));
+}
+
+.portfolio:hover {
+    background: linear-gradient(rgba(142, 142, 142, 1), rgba(22, 22, 22, 1));
+}
+
+.design {
+    background-image: url("http://www.wall321.com/thumbnails/detail/20120907/pattern%20patterns%201920x1200%20wallpaper_www.wall321.com_88.jpg");
+    background-size: cover;
+}
+
+
+
+.mission {
+    color: white;
+}
+.mission-title {
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: 100px;
+}
+
+.mission-content {
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: 45px;
+    text-align: justify;
+}
