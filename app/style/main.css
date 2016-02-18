@@ -1,0 +1,72 @@
+.container {
+    max-width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 60, 1);
+}
+[class*="col-"] {
+    float: left;
+    padding:15px;
+    box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+.header {
+    width: 100%;
+
+}
+
+.conditweb {
+    color: white;
+    text-align: right;
+    font-size: 1em;
+    padding-bottom: 20px;
+    border-width: 2px;
+    border-color: white;
+    border-style: hidden solid solid hidden;
+
+}
+
+.nav {
+    list-style: none;
+    display: inline-block;
+    border: 2px hidden white;
+    border-bottom-style: solid;
+}
+
+.nav li {
+    float: left;
+    color: white;
+    font-size: 1em;
+    padding: 0 20px;
+
+}
+
+.scroll-maker {
+    height:3000px;
+}
+
+.scrolling-words {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+
