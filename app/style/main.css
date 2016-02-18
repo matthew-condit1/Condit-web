@@ -41,6 +41,7 @@
     border-width: 2px;
     border-color: white;
     border-style: hidden solid solid hidden;
+    font-family: Georgia, serif;
 
 }
 
@@ -49,6 +50,7 @@
     display: inline-block;
     border: 2px hidden white;
     border-bottom-style: solid;
+    font-family: Georgia, serif;
 }
 
 .nav li {
